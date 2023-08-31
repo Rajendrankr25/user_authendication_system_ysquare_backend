@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", function (request, response) {
-    response.send("The server is Running");
+    response.send("The server is Running!!!");
 });
 
 app.use("/user", userRouter);
